@@ -1,0 +1,16 @@
+{
+  "name": "project-deadline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "check": "node --test && node --check public/js/app.js && node --check public/js/domain.js && node --check public/js/store.js && node --check public/js/sync.js && node --check public/service-worker.js",
+    "build": "npm run check"
+  }
+}

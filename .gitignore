@@ -134,3 +134,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Local API database files
+data/*.db
+data/*.db-shm
+data/*.db-wal
