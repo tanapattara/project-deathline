@@ -13,6 +13,16 @@ Project documentation:
 
 - Node.js 24 or newer (`node:sqlite` is used for persistence)
 
+## Deploy to Vercel
+
+The Vercel deployment serves the offline-first PWA from `public/` as a static
+site. The repository's `vercel.json` deliberately disables framework and server
+auto-detection so `src/server.js` is not started as a Serverless Function.
+
+The SQLite API is intended for a persistent Node.js host. Vercel Functions do
+not provide durable local filesystem storage, so deploying that API requires a
+managed database and a Vercel-compatible function entry point.
+
 ## Run the API
 
 ```bash
