@@ -1,6 +1,7 @@
 {
-  "name": "project-deadline",
+  "name": "deadline",
   "version": "1.0.0",
+  "description": "Nxt Gen IT KKU",
   "private": true,
   "type": "module",
   "engines": {

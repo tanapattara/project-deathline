@@ -47,7 +47,7 @@ function shell(content, route, title, eyebrow = "Your time, clearly") {
   return `<aside class="sidebar" aria-label="Primary navigation">
       <a class="brand" href="#/" aria-label="Deadline dashboard">
         <span class="brand-mark" aria-hidden="true">D</span>
-        <span class="brand-copy"><strong>Deadline</strong><small>Make time visible</small></span>
+        <span class="brand-copy"><strong>Deadline</strong><small>Nxt Gen IT KKU</small></span>
       </a>
       <nav class="desktop-nav">
         ${navItem("/", "Dashboard", "◫", route.page === "dashboard")}

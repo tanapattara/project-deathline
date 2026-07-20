@@ -1,6 +1,8 @@
 # Deadline
 
-A deadline-tracking mini project for KKU NXT. It includes a mobile-first, installable offline PWA and a dependency-free Node.js REST API backed by SQLite. Changes are saved locally first and synchronized with the API when a connection is available.
+Nxt Gen IT KKU
+
+A deadline-tracking mini project with a mobile-first, installable offline PWA and a dependency-free Node.js REST API backed by SQLite. Changes are saved locally first and synchronized with the API when a connection is available.
 
 Project documentation:
 
